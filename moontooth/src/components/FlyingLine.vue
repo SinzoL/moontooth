@@ -10,7 +10,7 @@ const particlesLoaded = async container => {
     <vue-particles id="tsparticles" @particles-loaded="particlesLoaded" :options="{
       background: {
         color: {
-          value: '#000000'
+          value: 'transparent'
         }
       },
       fpsLimit: 120,
@@ -83,5 +83,14 @@ const particlesLoaded = async container => {
 <style scoped>
 .read-the-docs {
   color: #888;
+}
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* 将粒子特效放在背景层 */
+  pointer-events: none; /* 禁用粒子特效的交互 */
 }
 </style>

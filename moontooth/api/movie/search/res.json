@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "电影名称 1",
+        "director": "导演 1",
+        "cast": "主演 1, 主演 2",
+        "releaseDate": "2023-01-01",
+        "description": "电影简介 1",
+        "poster": "https://example.com/poster1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "电影名称 2",
+        "director": "导演 2",
+        "cast": "主演 3, 主演 4",
+        "releaseDate": "2023-02-01",
+        "description": "电影简介 2",
+        "poster": "https://example.com/poster2.jpg"
+    }
+]
